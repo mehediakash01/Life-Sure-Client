@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 import Logo from "../Logo/Logo";
 import useAuthContext from "../../Hooks/useAuthContext";
 import { motion, AnimatePresence } from "framer-motion";
-import ThemeToggle from "../Theme/ThemeToggle";
+// import ThemeToggle from "../Theme/ThemeToggle";
 
 
 const Navbar = () => {
