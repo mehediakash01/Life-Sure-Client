@@ -131,12 +131,12 @@ const Navbar = () => {
   ) : (
     <div className="mt-4 pt-4 border-t border-gray-300 space-y-2">
       <NavLink to="/auth/login">
-        <button className="btn btn-secondary btn-sm text-white w-full">
+        <button className="btn btn-secondary btn-sm text-black w-full">
           Sign In
         </button>
       </NavLink>
       <NavLink to="/auth/register">
-        <button className="btn btn-secondary btn-sm text-white w-full">
+        <button className="btn btn-secondary btn-sm text-black w-full">
           Sign Up
         </button>
       </NavLink>
@@ -159,7 +159,7 @@ const Navbar = () => {
       <div className="navbar-end flex items-center gap-4">
         {/* Desktop ThemeToggle + Auth */}
         <div className="hidden lg:flex items-center gap-4">
-          <ThemeToggle/>
+          {/* <ThemeToggle/> */}
           {desktopAuthButtons}
         </div>
 
@@ -189,7 +189,7 @@ const Navbar = () => {
 
             {/* ThemeToggle in Mobile */}
             <li className="mt-2">
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
             </li>
 
             {/* Mobile Auth Buttons */}
